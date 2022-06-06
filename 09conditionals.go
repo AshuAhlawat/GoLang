@@ -24,7 +24,7 @@ func main() {
 			day = "Friday"
 		case 6:
 			day = "Saturday"
-		case 7:
+		case 0,7: // can give multiple cases so if num == 0 or 7
 			day = "Sunday"
 		default: // default case to run if no case is true
 			print("\nThats not a day")

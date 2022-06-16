@@ -18,8 +18,8 @@ func main() {
 	var f int64 = 72391231923988
 
 	fmt.Println(a, b, c, d, e, f)
-	
 
+	
 	// from -3.4e+38 to 3.4e+38
 	var g float32 = 5.2e+10
 	// from -1.7e+308 to +1.7e+308
